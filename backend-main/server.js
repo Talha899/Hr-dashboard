@@ -8,7 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Auth routes
 app.use('/api/hr/signup', require('./routes/hrSignup'));
 app.use('/api/login', require('./routes/Login'));
 // Employees routes
